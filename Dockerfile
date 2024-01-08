@@ -10,4 +10,4 @@ COPY . /app
 RUN pip install -r /app/requirements.txt
 
 # Run
-CMD ["python3", "-u", "/app/remover.py"]
+CMD ["python3", "-u", "/app/restart.py"]
